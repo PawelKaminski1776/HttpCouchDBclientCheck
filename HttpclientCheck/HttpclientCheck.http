@@ -1,0 +1,6 @@
+@HttpclientCheck_HostAddress = http://localhost:5273
+
+GET {{HttpclientCheck_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
